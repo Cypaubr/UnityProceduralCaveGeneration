@@ -265,6 +265,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1684625767}
   - component: {fileID: 1684625768}
+  - component: {fileID: 1684625769}
   m_Layer: 0
   m_Name: Map Generator
   m_TagString: Untagged
@@ -299,5 +300,16 @@ MonoBehaviour:
   width: 60
   height: 80
   seed: 
-  useRandomSeed: 0
+  useRandomSeed: 1
   randomFillPercent: 44
+--- !u!114 &1684625769
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 1684625766}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67ad578f1f28dc24998b3360de9fafae, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
